@@ -1,0 +1,5 @@
+helperscripts/dockerhop/lib
+helperscripts/dockerhop/bin
+helperscripts/dockerhop/include
+helperscripts/dockerhop/lib64
+helperscripts/dockerhop/pyvenv.cfg
