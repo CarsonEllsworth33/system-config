@@ -29,7 +29,7 @@ def ros2(
     ]
 
     # Check if mount_dir is a string and not empty then add to list
-    if isinstance(mount_dir, str) and mount_dir:
+    if isinstance(mount_dir, str) and mount_dir and isinstance(mount_location,str):
         print("mount_dir: ", mount_dir)
         docker_launch_command.insert(MOUNT_INSERT_POINT, "-v")
         docker_launch_command.insert(
